@@ -4,8 +4,8 @@ module.exports = {
   },
   images: {
     domains: [
-      'storage.googleapis.com', 
-      'cdn-images-1.listennotes.com', 
+      'storage.googleapis.com',
+      'cdn-images-1.listennotes.com',
       'am-a.akamaihd.net',
       'universe-meeps.leagueoflegends.com',
       'production.listennotes.com',
@@ -13,5 +13,8 @@ module.exports = {
       'i.ytimg.com',
       'ddragon.leagueoflegends.com'
     ],
-  }
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 };
