@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "SET NODE_OPTIONS=--openssl-legacy-provider && next dev",
-    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && next build",
-    "start": "SET NODE_OPTIONS=--openssl-legacy-provider && next start",
+    "build": "next build",
+    "start": "next start",
     "server": "node server/server.js"
   },
   "dependencies": {
